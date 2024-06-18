@@ -220,17 +220,17 @@ function preload() {
     this.load.image(assets.scene.restart, 'assets/restart-button.png')
 
     // Birds
-    this.load.spritesheet(assets.bird.red, 'assets/bird-red-sprite.png', {
-        frameWidth: 34,
-        frameHeight: 24
+    this.load.spritesheet(assets.bird.red, 'assets/bird-yellow-sprite.png', {
+        frameWidth: 60,
+        frameHeight: 45
     })
-    this.load.spritesheet(assets.bird.blue, 'assets/bird-blue-sprite.png', {
-        frameWidth: 34,
-        frameHeight: 24
+    this.load.spritesheet(assets.bird.blue, 'assets/bird-yellow-sprite.png', {
+        frameWidth: 60,
+        frameHeight: 45
     })
     this.load.spritesheet(assets.bird.yellow, 'assets/bird-yellow-sprite.png', {
-        frameWidth: 34,
-        frameHeight: 24
+        frameWidth: 60,
+        frameHeight: 45
     })
 
     // Numbers
