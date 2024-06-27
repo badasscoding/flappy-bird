@@ -221,16 +221,16 @@ function preload() {
 
     // Birds
     this.load.spritesheet(assets.bird.red, 'assets/bird-yellow-sprite.png', {
-        frameWidth: 48,
-        frameHeight: 48
+        frameWidth: 34,
+        frameHeight: 24
     })
     this.load.spritesheet(assets.bird.blue, 'assets/bird-yellow-sprite.png', {
-        frameWidth: 48,
-        frameHeight: 48
+        frameWidth: 34,
+        frameHeight: 24
     })
     this.load.spritesheet(assets.bird.yellow, 'assets/bird-yellow-sprite.png', {
-        frameWidth: 48,
-        frameHeight: 48
+        frameWidth: 34,
+        frameHeight: 24
     })
 
     // Numbers
