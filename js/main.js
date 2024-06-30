@@ -12,7 +12,7 @@ var gravity = 0.25;
 var velocity = 0;
 var position = 180;
 var rotation = 0;
-var jump = -4.6;
+var jump = -3.6;
 var flyArea = $("#flyarea").height();
 
 var score = 0;
@@ -149,8 +149,8 @@ function gameloop() {
 
    //create the bounding box
    var box = document.getElementById('player').getBoundingClientRect();
-   var origwidth = 55.0;
-   var origheight = 37.0;
+   var origwidth = 34.0;
+   var origheight = 24.0;
 
    var boxwidth = origwidth - (Math.sin(Math.abs(rotation) / 90) * 8);
    var boxheight = (origheight + box.height) / 2;

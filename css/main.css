@@ -34,19 +34,19 @@
 
 @-webkit-keyframes animBird {
    from { background-position: 0px 0px; }
-   to { background-position: 0px -96px; }
+   to { background-position: 0px -148px; }
 }
 @-moz-keyframes animBird {
    from { background-position: 0px 0px; }
-   to { background-position: 0px -96px; }
+   to { background-position: 0px -148px; }
 }
 @-o-keyframes animBird {
    from { background-position: 0px 0px; }
-   to { background-position: 0px -96px; }
+   to { background-position: 0px -148px; }
 }
 @keyframes animBird {
    from { background-position: 0px 0px; }
-   to { background-position: 0px -96px; }
+   to { background-position: 0px -148px; }
 }
 
 @-webkit-keyframes animPipe {
@@ -140,7 +140,7 @@ Screen - Game
    background-image: url('../assets/sky.png');
    background-repeat: repeat-x;
    background-position: 0px 100%;
-   background-color: #4ec0ca;
+   background-color: #00ccfc;
 
    -webkit-animation: animSky 7s linear infinite;
    animation: animSky 7s linear infinite;
@@ -294,12 +294,12 @@ Screen - Game
 .bird
 {
    position: absolute;
-   width: 34px;
-   height: 24px;
+   width: 55px;
+   height: 37px;
    background-image: url('../assets/bird.png');
 
-   -webkit-animation: animBird 300ms steps(4) infinite;
-   animation: animBird 300ms steps(4) infinite;
+   -webkit-animation: animBird 500ms steps(4) infinite;
+   animation: animBird 500ms steps(4) infinite;
 }
 
 .pipe
