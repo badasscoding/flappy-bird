@@ -277,7 +277,7 @@ function create() {
             start: 0,
             end: 2
         }),
-        frameRate: 15,
+        frameRate: 25,
         repeat: -1
     })
     this.anims.create({
@@ -286,7 +286,7 @@ function create() {
             key: assets.scene.ground,
             frame: 0
         }],
-        frameRate: 20
+        frameRate: 25
     })
 
     // Red Bird Animations
@@ -296,7 +296,7 @@ function create() {
             start: 0,
             end: 2
         }),
-        frameRate: 10,
+        frameRate: 25,
         repeat: -1
     })
     this.anims.create({
@@ -305,7 +305,7 @@ function create() {
             key: assets.bird.red,
             frame: 1
         }],
-        frameRate: 20
+        frameRate: 25
     })
 
     // Blue Bird animations
@@ -315,7 +315,7 @@ function create() {
             start: 0,
             end: 2
         }),
-        frameRate: 10,
+        frameRate: 25,
         repeat: -1
     })
     this.anims.create({
@@ -324,7 +324,7 @@ function create() {
             key: assets.bird.blue,
             frame: 1
         }],
-        frameRate: 20
+        frameRate: 25
     })
 
     // Yellow Bird animations
@@ -334,7 +334,7 @@ function create() {
             start: 0,
             end: 2
         }),
-        frameRate: 10,
+        frameRate: 25,
         repeat: -1
     })
     this.anims.create({
@@ -343,7 +343,7 @@ function create() {
             key: assets.bird.yellow,
             frame: 1
         }],
-        frameRate: 20
+        frameRate: 25
     })
 
     prepareGame(this)
